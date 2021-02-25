@@ -1,0 +1,10 @@
+{
+  "port": 9002,
+  "protocol": "http",
+  "tokenMgmtService": {
+    "protocol": "http",
+    "host": "127.0.0.1",
+    "port": 9001,
+    "verifyToken": "/api/v1/verify/:token"
+  }
+}
